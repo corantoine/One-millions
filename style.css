@@ -16,11 +16,20 @@ header{
     color: #fafafa;
 }
 
+#involved{
+    background-color: rgb(102, 100, 98, 0.1)
+}
+
+h2, h3{
+    color: #e74c3c;
+}
+
 button{
     background-color: red;
     color: #fafafa;
 }
 
 footer{
-    
+    background-color: #e74c3c;
+    height: 150px;
 }
