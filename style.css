@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 @font-face {
     font-family: "halfings";
     src: url("./fonts/glyphicons-halflings-regular.woff2") format("Woff2"),
@@ -32,7 +33,23 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+
+section {
+padding: 30px
 }
+
+section:nth-of-type(2n){
+    background-color: #f5f5f5;
+
+}
+
+h3{
+    color: #f74c3c;
+    font-family: 'PT Serif Caption', serif;
+    }
+
+
 .header > h1{
     font-family: 'PT Serif Caption', serif ;
     font-size:450%;
@@ -47,6 +64,7 @@ a{
     text-align: center;
     margin-top: 40px;
     line-height: 40px;
+
 
 }
 .header >img {
@@ -104,4 +122,65 @@ h2:after{
     margin:0 auto;
     margin-top: 10px;
     
+
+.button2{
+    background-color: rgb(255, 255, 255);
+    color: #f74c3c;
+    border-color: rgba(128, 128, 128, 0.747);
+    border-radius: 4px;
+    padding: 7px;
+    margin: 10px;
+    font-weight: 780;
+}
+
+
+.bloc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vh;
+    margin: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.corpse {
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f74c3c;
+    padding-bottom: 26px;
+    padding-top: 175px;
+}
+
+footer > img{
+    width: 20%;
+    padding-left: 100px;
+}
+
+.icone {
+    padding: 40px;
+    border-radius: 50%;
+    background-color:#333333;
+    color: white;
+    margin:30px;
+} 
+
+i {
+    justify-content: center;
+    font-size: 60px;
+}
+
+.chevron {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #333333;
+    border-radius: 50px;
+
 }
