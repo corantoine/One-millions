@@ -6,7 +6,7 @@
 @font-face {
     font-family: "halfings";
     src: url("./fonts/glyphicons-halflings-regular.woff2") format("Woff2"),
-        url("./fonts/glyphicons-halflings-regular.ttf") format("truetype"),
+        url("./fonts/glyphicons-halflings-regular.ttf") format("truetype");
 }
 
 /*Header*/
